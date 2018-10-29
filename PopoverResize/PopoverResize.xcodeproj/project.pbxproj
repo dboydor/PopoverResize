@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B62A382186C813001350DF /* PopoverResize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; };
+		27B62A3D2186C813001350DF /* PopoverResizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B62A3C2186C813001350DF /* PopoverResizeTests.swift */; };
+		27B62A3F2186C813001350DF /* PopoverResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B62A312186C813001350DF /* PopoverResize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B62A492186C855001350DF /* PopoverResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B62A482186C855001350DF /* PopoverResize.swift */; };
+		27B62AC62186D023001350DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B62AC52186D023001350DF /* AppDelegate.swift */; };
+		27B62AC82186D023001350DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B62AC72186D023001350DF /* ViewController.swift */; };
+		27B62ACA2186D024001350DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AC92186D024001350DF /* Assets.xcassets */; };
+		27B62ACD2186D024001350DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ACB2186D024001350DF /* Main.storyboard */; };
+		27B62AD42186D21D001350DF /* PopoverResize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; };
+		27B62AD62186D2D8001350DF /* PopoverResize.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27B62AE32186D9E6001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADB2186D9E6001350DF /* resizenortheastsouthwest_cursor.pdf */; };
+		27B62AE42186D9E6001350DF /* resizenorthsouth_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADC2186D9E6001350DF /* resizenorthsouth_cursor.pdf */; };
+		27B62AE52186D9E6001350DF /* resizeeastwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADD2186D9E6001350DF /* resizeeastwest_cursor.pdf */; };
+		27B62AE62186D9E6001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADE2186D9E6001350DF /* resizenorthwestsoutheast_cursor.pdf */; };
+		27B62AE72186D9E6001350DF /* resizenorthwestsoutheast_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADF2186D9E6001350DF /* resizenorthwestsoutheast_info.plist */; };
+		27B62AE82186D9E6001350DF /* resizeeastwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE02186D9E6001350DF /* resizeeastwest_info.plist */; };
+		27B62AE92186D9E6001350DF /* resizenorthsouth_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE12186D9E6001350DF /* resizenorthsouth_info.plist */; };
+		27B62AEA2186D9E6001350DF /* resizenortheastsouthwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE22186D9E6001350DF /* resizenortheastsouthwest_info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B62A392186C813001350DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B62A252186C813001350DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B62A2D2186C813001350DF;
+			remoteInfo = PopoverResize;
+		};
+		27B62AD72186D2D8001350DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B62A252186C813001350DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B62A2D2186C813001350DF;
+			remoteInfo = PopoverResize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27B62AD92186D2D8001350DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27B62AD62186D2D8001350DF /* PopoverResize.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27B62A2E2186C813001350DF /* PopoverResize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopoverResize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B62A312186C813001350DF /* PopoverResize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopoverResize.h; sourceTree = "<group>"; };
+		27B62A322186C813001350DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B62A372186C813001350DF /* PopoverResizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverResizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B62A3C2186C813001350DF /* PopoverResizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverResizeTests.swift; sourceTree = "<group>"; };
+		27B62A3E2186C813001350DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B62A482186C855001350DF /* PopoverResize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverResize.swift; sourceTree = "<group>"; };
+		27B62AC32186D023001350DF /* PopoverResizeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverResizeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B62AC52186D023001350DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27B62AC72186D023001350DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27B62AC92186D024001350DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27B62ACC2186D024001350DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27B62ACE2186D024001350DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B62ACF2186D024001350DF /* PopoverResizeSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopoverResizeSample.entitlements; sourceTree = "<group>"; };
+		27B62ADB2186D9E6001350DF /* resizenortheastsouthwest_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizenortheastsouthwest_cursor.pdf; sourceTree = "<group>"; };
+		27B62ADC2186D9E6001350DF /* resizenorthsouth_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizenorthsouth_cursor.pdf; sourceTree = "<group>"; };
+		27B62ADD2186D9E6001350DF /* resizeeastwest_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizeeastwest_cursor.pdf; sourceTree = "<group>"; };
+		27B62ADE2186D9E6001350DF /* resizenorthwestsoutheast_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizenorthwestsoutheast_cursor.pdf; sourceTree = "<group>"; };
+		27B62ADF2186D9E6001350DF /* resizenorthwestsoutheast_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizenorthwestsoutheast_info.plist; sourceTree = "<group>"; };
+		27B62AE02186D9E6001350DF /* resizeeastwest_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizeeastwest_info.plist; sourceTree = "<group>"; };
+		27B62AE12186D9E6001350DF /* resizenorthsouth_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizenorthsouth_info.plist; sourceTree = "<group>"; };
+		27B62AE22186D9E6001350DF /* resizenortheastsouthwest_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizenortheastsouthwest_info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27B62A2A2186C813001350DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B62A342186C813001350DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62A382186C813001350DF /* PopoverResize.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B62AC02186D023001350DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62AD42186D21D001350DF /* PopoverResize.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B62A242186C813001350DF = {
+			isa = PBXGroup;
+			children = (
+				27B62A302186C813001350DF /* PopoverResize */,
+				27B62A3B2186C813001350DF /* PopoverResizeTests */,
+				27B62AC42186D023001350DF /* PopoverResizeSample */,
+				27B62A2F2186C813001350DF /* Products */,
+				27B62AD32186D21D001350DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27B62A2F2186C813001350DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B62A2E2186C813001350DF /* PopoverResize.framework */,
+				27B62A372186C813001350DF /* PopoverResizeTests.xctest */,
+				27B62AC32186D023001350DF /* PopoverResizeSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27B62A302186C813001350DF /* PopoverResize */ = {
+			isa = PBXGroup;
+			children = (
+				27B62A312186C813001350DF /* PopoverResize.h */,
+				27B62A482186C855001350DF /* PopoverResize.swift */,
+				27B62A322186C813001350DF /* Info.plist */,
+				27B62ADA2186D9E6001350DF /* cursors */,
+			);
+			path = PopoverResize;
+			sourceTree = "<group>";
+		};
+		27B62A3B2186C813001350DF /* PopoverResizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				27B62A3C2186C813001350DF /* PopoverResizeTests.swift */,
+				27B62A3E2186C813001350DF /* Info.plist */,
+			);
+			path = PopoverResizeTests;
+			sourceTree = "<group>";
+		};
+		27B62AC42186D023001350DF /* PopoverResizeSample */ = {
+			isa = PBXGroup;
+			children = (
+				27B62AC52186D023001350DF /* AppDelegate.swift */,
+				27B62AC72186D023001350DF /* ViewController.swift */,
+				27B62AC92186D024001350DF /* Assets.xcassets */,
+				27B62ACB2186D024001350DF /* Main.storyboard */,
+				27B62ACE2186D024001350DF /* Info.plist */,
+				27B62ACF2186D024001350DF /* PopoverResizeSample.entitlements */,
+			);
+			path = PopoverResizeSample;
+			sourceTree = "<group>";
+		};
+		27B62AD32186D21D001350DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27B62ADA2186D9E6001350DF /* cursors */ = {
+			isa = PBXGroup;
+			children = (
+				27B62ADB2186D9E6001350DF /* resizenortheastsouthwest_cursor.pdf */,
+				27B62ADC2186D9E6001350DF /* resizenorthsouth_cursor.pdf */,
+				27B62ADD2186D9E6001350DF /* resizeeastwest_cursor.pdf */,
+				27B62ADE2186D9E6001350DF /* resizenorthwestsoutheast_cursor.pdf */,
+				27B62ADF2186D9E6001350DF /* resizenorthwestsoutheast_info.plist */,
+				27B62AE02186D9E6001350DF /* resizeeastwest_info.plist */,
+				27B62AE12186D9E6001350DF /* resizenorthsouth_info.plist */,
+				27B62AE22186D9E6001350DF /* resizenortheastsouthwest_info.plist */,
+			);
+			name = cursors;
+			path = "../../../library-auto-renew/library-auto-renew/resources/cursors";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27B62A2B2186C813001350DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62A3F2186C813001350DF /* PopoverResize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27B62A2D2186C813001350DF /* PopoverResize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B62A422186C813001350DF /* Build configuration list for PBXNativeTarget "PopoverResize" */;
+			buildPhases = (
+				27B62A292186C813001350DF /* Sources */,
+				27B62A2A2186C813001350DF /* Frameworks */,
+				27B62A2B2186C813001350DF /* Headers */,
+				27B62A2C2186C813001350DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopoverResize;
+			productName = PopoverResize;
+			productReference = 27B62A2E2186C813001350DF /* PopoverResize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27B62A362186C813001350DF /* PopoverResizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B62A452186C813001350DF /* Build configuration list for PBXNativeTarget "PopoverResizeTests" */;
+			buildPhases = (
+				27B62A332186C813001350DF /* Sources */,
+				27B62A342186C813001350DF /* Frameworks */,
+				27B62A352186C813001350DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B62A3A2186C813001350DF /* PBXTargetDependency */,
+			);
+			name = PopoverResizeTests;
+			productName = PopoverResizeTests;
+			productReference = 27B62A372186C813001350DF /* PopoverResizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27B62AC22186D023001350DF /* PopoverResizeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B62AD02186D024001350DF /* Build configuration list for PBXNativeTarget "PopoverResizeSample" */;
+			buildPhases = (
+				27B62ABF2186D023001350DF /* Sources */,
+				27B62AC02186D023001350DF /* Frameworks */,
+				27B62AC12186D023001350DF /* Resources */,
+				27B62AD92186D2D8001350DF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B62AD82186D2D8001350DF /* PBXTargetDependency */,
+			);
+			name = PopoverResizeSample;
+			productName = PopoverResizeSample;
+			productReference = 27B62AC32186D023001350DF /* PopoverResizeSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27B62A252186C813001350DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "David Boyd";
+				TargetAttributes = {
+					27B62A2D2186C813001350DF = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					27B62A362186C813001350DF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					27B62AC22186D023001350DF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 27B62A282186C813001350DF /* Build configuration list for PBXProject "PopoverResize" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27B62A242186C813001350DF;
+			productRefGroup = 27B62A2F2186C813001350DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B62A2D2186C813001350DF /* PopoverResize */,
+				27B62A362186C813001350DF /* PopoverResizeTests */,
+				27B62AC22186D023001350DF /* PopoverResizeSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27B62A2C2186C813001350DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62AEA2186D9E6001350DF /* resizenortheastsouthwest_info.plist in Resources */,
+				27B62AE92186D9E6001350DF /* resizenorthsouth_info.plist in Resources */,
+				27B62AE62186D9E6001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */,
+				27B62AE42186D9E6001350DF /* resizenorthsouth_cursor.pdf in Resources */,
+				27B62AE72186D9E6001350DF /* resizenorthwestsoutheast_info.plist in Resources */,
+				27B62AE32186D9E6001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */,
+				27B62AE82186D9E6001350DF /* resizeeastwest_info.plist in Resources */,
+				27B62AE52186D9E6001350DF /* resizeeastwest_cursor.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B62A352186C813001350DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B62AC12186D023001350DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62ACA2186D024001350DF /* Assets.xcassets in Resources */,
+				27B62ACD2186D024001350DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B62A292186C813001350DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62A492186C855001350DF /* PopoverResize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B62A332186C813001350DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62A3D2186C813001350DF /* PopoverResizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B62ABF2186D023001350DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B62AC82186D023001350DF /* ViewController.swift in Sources */,
+				27B62AC62186D023001350DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27B62A3A2186C813001350DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27B62A2D2186C813001350DF /* PopoverResize */;
+			targetProxy = 27B62A392186C813001350DF /* PBXContainerItemProxy */;
+		};
+		27B62AD82186D2D8001350DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27B62A2D2186C813001350DF /* PopoverResize */;
+			targetProxy = 27B62AD72186D2D8001350DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27B62ACB2186D024001350DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B62ACC2186D024001350DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27B62A402186C813001350DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27B62A412186C813001350DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27B62A432186C813001350DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79V4SS3X2U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = PopoverResize/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dboydor.PopoverResize;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		27B62A442186C813001350DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79V4SS3X2U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = PopoverResize/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dboydor.PopoverResize;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		27B62A462186C813001350DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 79V4SS3X2U;
+				INFOPLIST_FILE = PopoverResizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dboydor.PopoverResizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		27B62A472186C813001350DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 79V4SS3X2U;
+				INFOPLIST_FILE = PopoverResizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dboydor.PopoverResizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		27B62AD12186D024001350DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PopoverResizeSample/PopoverResizeSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 79V4SS3X2U;
+				INFOPLIST_FILE = PopoverResizeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dboydor.PopoverResizeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		27B62AD22186D024001350DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PopoverResizeSample/PopoverResizeSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 79V4SS3X2U;
+				INFOPLIST_FILE = PopoverResizeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dboydor.PopoverResizeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B62A282186C813001350DF /* Build configuration list for PBXProject "PopoverResize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B62A402186C813001350DF /* Debug */,
+				27B62A412186C813001350DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B62A422186C813001350DF /* Build configuration list for PBXNativeTarget "PopoverResize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B62A432186C813001350DF /* Debug */,
+				27B62A442186C813001350DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B62A452186C813001350DF /* Build configuration list for PBXNativeTarget "PopoverResizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B62A462186C813001350DF /* Debug */,
+				27B62A472186C813001350DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B62AD02186D024001350DF /* Build configuration list for PBXNativeTarget "PopoverResizeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B62AD12186D024001350DF /* Debug */,
+				27B62AD22186D024001350DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27B62A252186C813001350DF /* Project object */;
+}
