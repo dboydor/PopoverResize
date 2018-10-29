@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "BSD", :file => "LICENSE" }
   s.author       = { "David Boyd" => "dboydor@me.com" }
   s.osx.deployment_target = "10.11"
-  s.source       = { :git => "https://github.com/dboydor/PopoverResize.git" }
+  s.source       = { :git => "https://github.com/dboydor/PopoverResize.git", :tag => "1.0" }
   s.source_files = "PopoverResize/PopoverResize"
   s.resource     = "PopoverResize/PopoverResize/resources"
 end
