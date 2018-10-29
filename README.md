@@ -1,5 +1,7 @@
 **PopoverResize** adds the ability to resize a NSPopover.  It shows resize icons when you hover over the edges of the popover window, indicating to the user they can resize.
 
+This is how it looks within my app, Library Express:
+
 [![Watch the video](https://img.youtube.com/vi/dAL-DIFI9Yw/hqdefault.jpg)](https://www.youtube.com/watch?v=dAL-DIFI9Yw)
 
 ### How to use PopoverResize
