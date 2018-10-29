@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.author       = { "David Boyd" => "dboydor@me.com" }
   s.osx.deployment_target = "10.11"
   s.source       = { :git => "https://github.com/dboydor/PopoverResize.git", :tag => "v0.7" }
-  s.source_files  = "PopoverResize/PopoverResize"
-  s.resource     = "PopoverResize/PopoverResize/MomentFromNow.bundle"
+  s.source_files = "PopoverResize/PopoverResize"
+  s.resource     = "PopoverResize/PopoverResize/resources"
 end
