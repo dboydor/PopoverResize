@@ -17,6 +17,14 @@
 		27B62ACD2186D024001350DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ACB2186D024001350DF /* Main.storyboard */; };
 		27B62AD42186D21D001350DF /* PopoverResize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; };
 		27B62AD62186D2D8001350DF /* PopoverResize.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27B62A2E2186C813001350DF /* PopoverResize.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27B62B0D2186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B052186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf */; };
+		27B62B0E2186ED1E001350DF /* resizenorthsouth_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B062186ED1E001350DF /* resizenorthsouth_cursor.pdf */; };
+		27B62B0F2186ED1E001350DF /* resizeeastwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B072186ED1E001350DF /* resizeeastwest_cursor.pdf */; };
+		27B62B102186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B082186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf */; };
+		27B62B112186ED1E001350DF /* resizenorthwestsoutheast_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B092186ED1E001350DF /* resizenorthwestsoutheast_info.plist */; };
+		27B62B122186ED1E001350DF /* resizeeastwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0A2186ED1E001350DF /* resizeeastwest_info.plist */; };
+		27B62B132186ED1E001350DF /* resizenorthsouth_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0B2186ED1E001350DF /* resizenorthsouth_info.plist */; };
+		27B62B142186ED1E001350DF /* resizenortheastsouthwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62B0C2186ED1E001350DF /* resizenortheastsouthwest_info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +73,14 @@
 		27B62ACC2186D024001350DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27B62ACE2186D024001350DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B62ACF2186D024001350DF /* PopoverResizeSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopoverResizeSample.entitlements; sourceTree = "<group>"; };
+		27B62B052186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizenortheastsouthwest_cursor.pdf; sourceTree = "<group>"; };
+		27B62B062186ED1E001350DF /* resizenorthsouth_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizenorthsouth_cursor.pdf; sourceTree = "<group>"; };
+		27B62B072186ED1E001350DF /* resizeeastwest_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizeeastwest_cursor.pdf; sourceTree = "<group>"; };
+		27B62B082186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resizenorthwestsoutheast_cursor.pdf; sourceTree = "<group>"; };
+		27B62B092186ED1E001350DF /* resizenorthwestsoutheast_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizenorthwestsoutheast_info.plist; sourceTree = "<group>"; };
+		27B62B0A2186ED1E001350DF /* resizeeastwest_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizeeastwest_info.plist; sourceTree = "<group>"; };
+		27B62B0B2186ED1E001350DF /* resizenorthsouth_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizenorthsouth_info.plist; sourceTree = "<group>"; };
+		27B62B0C2186ED1E001350DF /* resizenortheastsouthwest_info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = resizenortheastsouthwest_info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +137,7 @@
 				27B62A312186C813001350DF /* PopoverResize.h */,
 				27B62A482186C855001350DF /* PopoverResize.swift */,
 				27B62A322186C813001350DF /* Info.plist */,
+				27B62B042186ED1E001350DF /* resources */,
 			);
 			path = PopoverResize;
 			sourceTree = "<group>";
@@ -152,6 +169,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27B62B042186ED1E001350DF /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				27B62B052186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf */,
+				27B62B062186ED1E001350DF /* resizenorthsouth_cursor.pdf */,
+				27B62B072186ED1E001350DF /* resizeeastwest_cursor.pdf */,
+				27B62B082186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf */,
+				27B62B092186ED1E001350DF /* resizenorthwestsoutheast_info.plist */,
+				27B62B0A2186ED1E001350DF /* resizeeastwest_info.plist */,
+				27B62B0B2186ED1E001350DF /* resizenorthsouth_info.plist */,
+				27B62B0C2186ED1E001350DF /* resizenortheastsouthwest_info.plist */,
+			);
+			name = resources;
+			path = "../../../library-auto-renew/Pods/PopoverResize/PopoverResize/PopoverResize/resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +303,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B62B142186ED1E001350DF /* resizenortheastsouthwest_info.plist in Resources */,
+				27B62B132186ED1E001350DF /* resizenorthsouth_info.plist in Resources */,
+				27B62B102186ED1E001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */,
+				27B62B0E2186ED1E001350DF /* resizenorthsouth_cursor.pdf in Resources */,
+				27B62B112186ED1E001350DF /* resizenorthwestsoutheast_info.plist in Resources */,
+				27B62B0D2186ED1E001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */,
+				27B62B122186ED1E001350DF /* resizeeastwest_info.plist in Resources */,
+				27B62B0F2186ED1E001350DF /* resizeeastwest_cursor.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
