@@ -25,6 +25,14 @@
 		27B62AE82186D9E6001350DF /* resizeeastwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE02186D9E6001350DF /* resizeeastwest_info.plist */; };
 		27B62AE92186D9E6001350DF /* resizenorthsouth_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE12186D9E6001350DF /* resizenorthsouth_info.plist */; };
 		27B62AEA2186D9E6001350DF /* resizenortheastsouthwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE22186D9E6001350DF /* resizenortheastsouthwest_info.plist */; };
+		27B62AEB2186E717001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADB2186D9E6001350DF /* resizenortheastsouthwest_cursor.pdf */; };
+		27B62AEC2186E717001350DF /* resizenorthsouth_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADC2186D9E6001350DF /* resizenorthsouth_cursor.pdf */; };
+		27B62AED2186E717001350DF /* resizeeastwest_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADD2186D9E6001350DF /* resizeeastwest_cursor.pdf */; };
+		27B62AEE2186E717001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADE2186D9E6001350DF /* resizenorthwestsoutheast_cursor.pdf */; };
+		27B62AEF2186E717001350DF /* resizenorthwestsoutheast_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62ADF2186D9E6001350DF /* resizenorthwestsoutheast_info.plist */; };
+		27B62AF02186E717001350DF /* resizeeastwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE02186D9E6001350DF /* resizeeastwest_info.plist */; };
+		27B62AF12186E717001350DF /* resizenorthsouth_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE12186D9E6001350DF /* resizenorthsouth_info.plist */; };
+		27B62AF22186E717001350DF /* resizenortheastsouthwest_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B62AE22186D9E6001350DF /* resizenortheastsouthwest_info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -325,6 +333,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B62AEB2186E717001350DF /* resizenortheastsouthwest_cursor.pdf in Resources */,
+				27B62AEC2186E717001350DF /* resizenorthsouth_cursor.pdf in Resources */,
+				27B62AED2186E717001350DF /* resizeeastwest_cursor.pdf in Resources */,
+				27B62AEE2186E717001350DF /* resizenorthwestsoutheast_cursor.pdf in Resources */,
+				27B62AEF2186E717001350DF /* resizenorthwestsoutheast_info.plist in Resources */,
+				27B62AF02186E717001350DF /* resizeeastwest_info.plist in Resources */,
+				27B62AF12186E717001350DF /* resizenorthsouth_info.plist in Resources */,
+				27B62AF22186E717001350DF /* resizenortheastsouthwest_info.plist in Resources */,
 				27B62ACA2186D024001350DF /* Assets.xcassets in Resources */,
 				27B62ACD2186D024001350DF /* Main.storyboard in Resources */,
 			);
