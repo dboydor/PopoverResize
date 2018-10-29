@@ -25,14 +25,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         popover.appearance = NSAppearance(named: .aqua)
         popover.animates = false
+        popover.setContentViewController(ViewController.create())
         popover.resized {(size: NSSize) in
             print("Popover resized: \(size)")
-        }
-        
-        let contentController = popover.contentViewController
-        guard let _ = contentController as? ViewController else {
-            popover.setContentViewController(ViewController.create())
-            return
         }
     }
 
