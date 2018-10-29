@@ -42,7 +42,7 @@ PopoverResize can be installed with [CocoaPods](https://cocoapods.org/).
 
 Add this to your Podspec:
 ```
-pod 'PopoverResize'
+pod 'PopoverResize', :git => 'https://github.com/dboydor/PopoverResize'
 ```
 
 Then run `pod install`.
