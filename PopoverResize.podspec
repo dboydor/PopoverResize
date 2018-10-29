@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "PopoverResize"
   s.version      = "1.0"
-  s.summary      = "A resizable NSPopover implementation macOS written in Swift"
+  s.summary      = "A resizable NSPopover implementation written in Swift"
   s.description  = <<-DESC
                     This framework allows you to drag-resize a NSPopover window
                     This framework supports macOS 10.11+, Xcode 9 and Swift 4.
